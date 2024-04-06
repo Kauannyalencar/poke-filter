@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border:none;
+    list-style: none;
+}
+
+:root {
+    --red1:#fb1c34;
+    --red2:#e40404;
+    --dark:#7d91c2;
+    --dark2:#220101;
+    --bg-cartao: #757575;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: papayawhip;
+}
+
+.cabecalho{
+    text-align: center;
+    color: var(--red2);
+    background-color: var(--dark2);
+    padding: 10px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: -1px 1px 9px 0px var(--dark2);
+}
+
+.pesquisa {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+h3{
+    color: var(--dark2);
+
+}
+
+.input-pesquisa{
+    background-color: #fff;
+    color: #000;
+    padding: 8px 0px 8px 16px; 
+    border-radius: 10px;
+}
+
+
+.input-pesquisa:focus{
+   border: #fff;
+}
+
+main{
+    padding: 25px;
+
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.cartao-pokemon {
+    background-color: #baafaf;
+    width: 200px;
+    border: 1px solid #383e38;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 8px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.cartao-pokemon:hover{
+    background-color: var(--dark);
+    color: #fff;
+}
+
+.descricao{
+    text-indent: 8px;
+}
+
+.active{
+    display: block;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.cry{
+    width: min-content;
+    padding: 3px;
+    cursor: pointer;
+    border: 1px solid #2f2f2f;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cry:hover{
+    transform: scale(1.1);
+}
+
+.cartao-pokemon .gif{
+    width: 90px;
+    height: 90px;
+}
+
+.cartao-pokemon .tipos{
+    display: flex;
+    gap: 10px;
+}
+
+.cartao-pokemon .tipo {
+    padding: 5px;
+    border-radius: 8px;
+}
+.grama {
+    background-color: #7ac74c;
+}
+
+.veneno {
+    background-color: #df67ddfb;
+}
+
+.fogo {
+    background-color: #ee8130;
+}
+
+.agua {
+    background-color: #6390f0;
+}
+
+.inseto {
+    background-color: #a6b91a;
+}
+
+
+
+ ul:has(li:hover) li:not(:hover){
+    opacity: .6;
+    scale: 0.98;
+} 
+

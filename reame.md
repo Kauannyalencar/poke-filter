@@ -1,0 +1,1 @@
+Fazer um script para mudar class de um elemento "play" quando estiver tocando.
