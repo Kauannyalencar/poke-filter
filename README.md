@@ -6,4 +6,4 @@
   <li>CSS</li>
   <li>JavaScript</li>
 </ul>
-<p><a href="http://127.0.0.1:5502/Battle%20field/Javascript/filtro/index.html">Live deploy</a></p>
+<p><a href="https://kauannyalencar.github.io/poke-filter/">Live deploy</a></p>
